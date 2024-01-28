@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#header{
+    background-color: rgb(35, 21, 126);
+    display: flex;
+    /* margin-bottom: 10vh; */
+}
+
+#header .logo img{
+    width: 6rem;
+    margin-left: 10vw;
+    margin-right: 13vw;
+}
+
+#header h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#main{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#main .name{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/WhatsApp\ Image\ 2024-01-28\ at\ 15.22.36_72da3306.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#main .name .parti{
+    /* border: 2px solid blue;  */
+    background-color: #eeeeee8f;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    gap: 2px;
+}
+
+#main .name h1{
+    background-color: rgba(254, 254, 254, 0.355);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: #eeeeee8f;
+    padding: 2px 30px;
+    border-radius: 7px;
+    font-weight: 900;
+}
+#main .name .parti,.links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#main .name .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid blue;  */
+    background-color: #eeeeee91;
+    border-radius: 7px;
+}
+
+#main .name .links h2{
+    width: 200px;
+    color: rgb(0, 0, 0);
+}
+
+#main .name .links a{
+    text-decoration: none;
+    color: rgb(22, 36, 225);
+    
+}
+
+
+#main .image img{
+    width: 70vh;
+    border-radius: 7px;
+}
